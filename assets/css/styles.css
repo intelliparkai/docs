@@ -44,6 +44,8 @@ p, ul, ol{
     margin-bottom: 8px;
 }
 header{
+    position: fixed;
+    top: 0;
     width: 100%;
     background-color: white;
     height: 56px;
@@ -54,7 +56,10 @@ header{
 }
 main{
     margin: 1rem auto;
+    margin-top: 56px;
     width: 80%;
+    overflow: auto;
+    max-height: calc(100% - 56px);
 }
 footer{
     margin: 4px 0;

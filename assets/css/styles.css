@@ -20,7 +20,9 @@
 }
 body{
     background: #f7f7f7;
-    font-family: sans-serif;
+}
+h1, h2, h3, h4, footer{
+    font-family: "Roboto", sans-serif;
 }
 img:not(#flowchart img){
     width: 35%;
@@ -34,8 +36,12 @@ section{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-p{
+p, ul, ol{
     margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+}
+:is(ul, ol) p{
+    margin-bottom: 8px;
 }
 header{
     width: 100%;
@@ -54,4 +60,13 @@ footer{
     margin: 4px 0;
     text-align: center;
     font-size: 13px;
+}
+@media (max-width: 425px) {
+    main{
+        width: 95%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }

@@ -103,6 +103,9 @@ main{
     text-decoration: none;
     color: inherit;
 }
+.about ul li{
+    margin-top: 4px;
+}
 footer{
     margin: 4px 0;
     text-align: center;
